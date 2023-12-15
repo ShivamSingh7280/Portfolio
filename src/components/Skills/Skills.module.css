@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.container {
+	font-family: "Poppins", sans-serif;
+	min-height: 80vh;
+	background-color: white;
+	text-align: center;
+}
+
+.tabContainer {
+	border: 1px solid lightgray;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	padding-bottom: 4%;
+}
+
+.inactiveTab {
+	opacity: 0.2;
+}
+
+.heading {
+	font-size: xx-large;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	margin-bottom: 5%;
+}
+
+.tab_heading {
+	font-size: larger;
+	font-weight: 500;
+	color: black;
+}
+
+.tabs {
+	margin: 5% 10% 5% 10%;
+}
+
+.gridContainer {
+	margin-top: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+	.gridContainer {
+		margin-top: 10%;
+	}
+}
